@@ -8,6 +8,7 @@ namespace DatamatikerEX.MVVM.Model
 {
     public class MessageModel
     {
+        public  string ExerciseNumber { get; set; }
         public string ExerciseName { get; set; }
         public string ExerciseSubtitle { get; set; }
         public string ExerciseColor { get; set; }

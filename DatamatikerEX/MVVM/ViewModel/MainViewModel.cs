@@ -45,44 +45,51 @@ namespace DatamatikerEX.MVVM.ViewModel
         public MainViewModel()
         {
             var Messages = new ObservableCollection<MessageModel>();
-            
+
             var MessagesOpgave2 = new ObservableCollection<MessageModel>();
-            
+
             Exercises = new ObservableCollection<ExerciseModel>();
 
-           
+
             Messages.Add(new MessageModel
             {
+                ExerciseNumber = "1",
                 ExerciseName = "Øvelse 1",
-                ExerciseSubtitle = "Terminologi",
-                ImageSource = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Eo_circle_blue_number-1.svg/2048px-Eo_circle_blue_number-1.svg.png"
+                ExerciseSubtitle = "Terminologi"
 
 
             });
             Messages.Add(new MessageModel
             {
+                ExerciseNumber = "1.1",
                 Message = "Del teamet op i mindre grupper (af 2 personer), og brug Ordet rundt til at reflektere over begreberne \n”navnekonventioner (en: naming conventions)”,\n”test initialize”,\n”this keyword” og \n”namespaces”.\nSørg for, at alle får mulighed for at tale.",
 
             });
 
             Messages.Add(new MessageModel
             {
+                ExerciseNumber = "2",
                 ExerciseName = "Øvelse 2",
                 ExerciseSubtitle = "Orange Tree Simulation",
-                ImageSource = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Eo_circle_blue_number-2.svg/1024px-Eo_circle_blue_number-2.svg.png"
-
-
             });
 
             Messages.Add(new MessageModel
             {
-                Message = "De første øvelser forneden omfatter oprettelse af konsolprojekt, testprojekt og implementering af den centrale \nC#-klasse, OrangeTree, til simulering af et appelsintræs livsforløb. \nDen sidste øvelse er selve gennem¬førelse af en unit-test for at tjekke, om din implemente¬ring er korrekt. \nNår du kører testen i Test Explorer, retter du i din implementering, indtil alle tests kører uden problemer (dvs. er grønne). Det forklares nærmere, når du kommer til øvelsen."
+                ExerciseNumber = "2.1",
+                ExerciseName = "Øvelse 2",
+                ExerciseSubtitle = "Orange Tree Simulation",
+                Message = "De første øvelser forneden omfatter oprettelse af konsolprojekt, testprojekt og implementering af den centrale \nC#-klasse, OrangeTree, til simulering af et appelsintræs livsforløb. \nDen sidste øvelse er selve gennemførelse af en unit-test for at tjekke, om din implemente¬ring er korrekt. \nNår du kører testen i Test Explorer, retter du i din implementering, indtil alle tests kører uden problemer (dvs. er grønne). Det forklares nærmere, når du kommer til øvelsen."
             });
 
-            MessagesOpgave2.Add(new MessageModel {
+            Messages.Add(new MessageModel
+            {
+                Message = "De første øvelser forneden omfatter oprettelse af konsolprojekt, testprojekt og implementering af den centrale \nC#-klasse, OrangeTree, til simulering af et appelsintræs livsforløb. \nDen sidste øvelse er selve gennemførelse af en unit-test for at tjekke, om din implemente¬ring er korrekt. \nNår du kører testen i Test Explorer, retter du i din implementering, indtil alle tests kører uden problemer (dvs. er grønne). Det forklares nærmere, når du kommer til øvelsen."
+            });
+
+            MessagesOpgave2.Add(new MessageModel
+            {
                 ExerciseName = "Øvelse 1",
                 ExerciseSubtitle = "Terminologi",
-                ImageSource = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Eo_circle_blue_number-1.svg/2048px-Eo_circle_blue_number-1.svg.png"
 
             });
 
