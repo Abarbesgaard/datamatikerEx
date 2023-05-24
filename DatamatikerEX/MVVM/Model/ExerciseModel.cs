@@ -14,6 +14,7 @@ namespace DatamatikerEX.MVVM.Model
         public string ExerciseDescription { get; set; }
         public string ImageSource { get; set; }
 
+
         public ObservableCollection<MessageModel> Messages { get; set; }
     
     }

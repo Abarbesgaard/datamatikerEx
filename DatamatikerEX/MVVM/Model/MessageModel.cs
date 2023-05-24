@@ -16,6 +16,8 @@ namespace DatamatikerEX.MVVM.Model
 
         public string Message { get; set; }
 
+        public string TimeFrame { get; set; }
+
         public string FirstExercise { get; set; }
 
 

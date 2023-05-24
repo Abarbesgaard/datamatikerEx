@@ -51,6 +51,12 @@
                                    VerticalAlignment="Center"
                                    Margin="0,0,-5,0" />
 
+                            <Label Content="{Binding TimeFrame}"
+                                   Foreground="Gray"
+                                   FontWeight="Normal"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,-5,0" />
+
                         </StackPanel>
 
                     </StackPanel>
