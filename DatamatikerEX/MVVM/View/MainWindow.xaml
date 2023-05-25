@@ -94,7 +94,7 @@
                         Background="#3bff6f"
                         Margin="18,0,0,0" />
                 <StackPanel VerticalAlignment="Center">
-                    <Label Content="Nuværende opgave"
+                    <Label Content="{Binding SelectedExercise.ExerciseName}"
                            Foreground="White"
                            FontWeight="SemiBold"
                            Margin="0,-5,0,-5" />
@@ -118,7 +118,7 @@
                     BorderThickness="0,0,0,2">
                 <Grid HorizontalAlignment="Stretch"
                       Margin="8">
-                    <Label Content="EX#"
+                    <Label Content="{Binding SelectedExercise.ExerciseName}"
                            Foreground="White"
                            FontWeight="Bold"
                            Margin="5,0,5,0"

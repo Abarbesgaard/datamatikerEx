@@ -19,3 +19,6 @@ C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\Datamatike
 C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\DatamatikerEX\obj\Debug\App.baml
 C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\DatamatikerEX\obj\Debug\Themes\ExerciseItem.baml
 C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\DatamatikerEX\obj\Debug\Themes\StylishScrollBar.baml
+C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\DatamatikerEX\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\DatamatikerEX\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\45217\Desktop\Datamatiker\Personlige Projekter\DatamatikerEX\DatamatikerEX\obj\Debug\DatamatikerEX.csproj.CopyComplete

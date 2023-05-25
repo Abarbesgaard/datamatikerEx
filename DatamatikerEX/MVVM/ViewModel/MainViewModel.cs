@@ -61,7 +61,7 @@ namespace DatamatikerEX.MVVM.ViewModel
             });
             Messages.Add(new MessageModel
             {
-                ExerciseNumber = "1.1",
+                ExerciseNumber = ".1",
                 Message = "Del teamet op i mindre grupper (af 2 personer), og brug Ordet rundt til at reflektere over begreberne \n”navnekonventioner (en: naming conventions)”,\n”test initialize”,\n”this keyword” og \n”namespaces”.\nSørg for, at alle får mulighed for at tale.",
                 TimeFrame = "20 minutter"
             });
@@ -75,7 +75,7 @@ namespace DatamatikerEX.MVVM.ViewModel
 
             Messages.Add(new MessageModel
             {
-                ExerciseNumber = "2.1",
+                ExerciseNumber = ".1",
                 ExerciseName = "Øvelse 2",
                 ExerciseSubtitle = "Orange Tree Simulation",
                 Message = "De første øvelser forneden omfatter oprettelse af konsolprojekt, testprojekt og implementering af den centrale \nC#-klasse, OrangeTree, til simulering af et appelsintræs livsforløb. \nDen sidste øvelse er selve gennemførelse af en unit-test for at tjekke, om din implemente¬ring er korrekt. \nNår du kører testen i Test Explorer, retter du i din implementering, indtil alle tests kører uden problemer (dvs. er grønne). Det forklares nærmere, når du kommer til øvelsen.",
@@ -120,6 +120,7 @@ namespace DatamatikerEX.MVVM.ViewModel
             Exercises.Add(new ExerciseModel
             {
                 ExerciseName = "Opgave 3",
+                
                 ExerciseDescription = "dette er opgave ex3",
                 Messages = Messages
 

@@ -6,21 +6,12 @@
             <Setter.Value>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <!--<Ellipse Width="30"
-                                 Height="30"
-                                 Margin="10,0,0,-5">
-                            <Ellipse.Fill>
-                                <SolidColorBrush Color="LightBlue" />
-                            </Ellipse.Fill>
-                            
-                            <TextBlock Text="{Binding ExerciseNumber}" />
-
-                        </Ellipse>-->
+                       
                         <Grid Width="30"
                               Height="30"
                               Margin="10,0,0,-5"
                               VerticalAlignment="Top">
-                            <Ellipse Fill="#8B0000" />
+                            <Ellipse Fill="#446ab8" />
                             <TextBlock Text="{Binding ExerciseNumber}"
                                        FontSize="16"
                                        FontWeight="Bold"
@@ -44,6 +35,11 @@
                                        Margin="0,0,-5,0" />
 
                             </StackPanel>
+                            <Label Content="{Binding h1}"
+                                   Foreground="White"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,-5,0" />
 
                             <Label Content="{Binding Message}"
                                    Foreground="White"
@@ -67,6 +63,9 @@
         <Style.Resources>
             <ControlTemplate x:Key="CustomRow">
                 <StackPanel Orientation="Horizontal">
+                    <Label Content="{Binding h1}"
+                           Foreground="AliceBlue"
+                           FontSize="14" />
                     <Label Content="{Binding Message}"
                            Foreground="White"
                            Margin="40,-2,0,-2" />

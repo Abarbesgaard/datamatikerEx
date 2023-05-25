@@ -11,6 +11,12 @@ namespace DatamatikerEX.MVVM.Model
         public  string ExerciseNumber { get; set; }
         public string ExerciseName { get; set; }
         public string ExerciseSubtitle { get; set; }
+        public string h1 { get; set; }
+        public string h2 { get; set; }
+        public string h3 { get; set; }
+        public string h4 { get; set; }
+        
+
         public string ExerciseColor { get; set; }
         public string ImageSource { get; set; }
 
